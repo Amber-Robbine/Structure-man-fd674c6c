@@ -19,10 +19,10 @@ td {
     text-align: center;
 }
 
-td[scope="col"] {
+td {
     background-color: #555555;
     color: #FFFFFF;
-    size: 3px;
+ 
 
 }
 
@@ -33,4 +33,13 @@ tr:nth-child(even) {
 
 th[scope="row"] {
     background-color: #EEEEEE;
+}
+
+a[href^="https"]::before {
+  
+}
+
+
+li {
+  margin-bottom: .5rem;
 }
